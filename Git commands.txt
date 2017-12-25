@@ -1,0 +1,7 @@
+git add -u -                                                 add all changed files
+git commit -m "comment" -                                    commit all changes
+git commit -a -m "comment" -                                 commit all changes (+ git add -u, but without new files)
+git checkout -b somebranch - 								 load some branch from remote repo and switch to it
+git push -u origin somebranch - 							 push changes from our SOMEBRANCH to remote repo and bind them
+git tag -  													 view current tags
+git tag -a v1.4 -m 'my version 1.4' - 						 add tag	
